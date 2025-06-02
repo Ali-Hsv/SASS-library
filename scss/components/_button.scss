@@ -1,0 +1,30 @@
+@mixin btn($border-prorerty: none, $bg-col: #2a6185, $txt-col: #c1dcdc){
+    text-align: center;
+    border: $border-prorerty;
+    background-color: $bg-col;
+    color: $txt-col;
+    padding: $paddin-size $paddin-size * 2;
+    border-radius: $normal-radius;
+    box-shadow: $deafult-box-shadow;
+    cursor: pointer;
+    transition: 0.2s;
+    transform: scale(1);
+    margin: 5px;
+    &:hover{
+        background-color: lighten($bg-col, 15);
+        transform: scale(1.1);
+    }
+}
+
+.btn{
+    @include btn;
+}
+
+@each $key, $val in $colors{
+    .btn-#{$key}{
+        @include btn($bg-col: $val);
+    }
+    .btn-#{$key}-border{
+        @include btn($border-prorerty: solid 3px $val);
+    }
+}
