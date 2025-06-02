@@ -1,0 +1,59 @@
+//*variables
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+$error: #b03a3a;
+$info: #b09a3a;
+$dark-blue: #03045e;
+$blue: #0077b6;
+$aqua: #00b4d8;
+$light-aqua: #90e0ef;
+$white: #caf0f8;
+
+//map
+
+$colors: (
+  "error": $error,
+  "info": $info,
+  "primary-drk": $dark-blue,
+  "primary": $blue,
+  "secondary": $aqua,
+  "secondary-lgt": $light-aqua,
+  "white": $white,
+  "red": red,
+  "yellow": yellow,
+  "orange": orange,
+  "green": green,
+  "purple": purple,
+  "gray": gray,
+  "brown": brown,
+  "black": black,
+);
+
+//todo: Map
+// @debug map-get($colors, "error"); /*find color (or choose)*/
+// @debug map-has-key($colors, "orange"); /*true*/
+// @debug map-has-key($colors, "nonona"); /*false*/
+// @debug map-remove($colors, "green");
+// @debug map-has-key($colors, "green"); /*true cuz map-remove create another man without green but main map (colors) have green*/
+// @debug map-merge($colors, ("pink": pink,)); /*it also create phantom map*/
+
+// .test-button{
+//   background-color: map-get($colors, "brown");
+// }
+
+$normal-radius: 20px;
+
+$deafult-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$dark-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+$font-size: 1rem;
+$font-size-lg: $font-size * 1.5;
+$font-size-sm: $font-size  * 0.75;
+$font-size-xl: $font-size  * 2;
+$font-size-xxl: $font-size  * 3;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playwrite DE Grund", cursive;
+}
