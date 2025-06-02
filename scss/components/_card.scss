@@ -2,7 +2,7 @@
 
 .card{
     width: 350px;
-    border-radius: $normal-radius;
+    border-radius: $base-radius;
     border: 2px solid map-get($colors, "primary");
     font-size: $font-size;
     display: flex;
@@ -24,7 +24,7 @@
             width: 200px;
             height: 200px;
             border: 2px solid map-get($colors, "secondary");
-            border-radius: $normal-radius;
+            border-radius: $base-radius;
             color: $lgt;
             font-size: $font-size-sm;
             padding: 20px;
@@ -48,7 +48,7 @@
             button{
                 padding: 9px;
                 cursor: pointer;
-                border-radius: math.div($normal-radius , 2);
+                border-radius: math.div($base-radius , 2);
                 border: none;
                 background: map-get($colors, "primary-drk");
                 box-shadow: $dark-box-shadow;

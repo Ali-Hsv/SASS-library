@@ -1,5 +1,5 @@
 body{
-  background: $primary-drk;
+  background-color: #2fbac4;
   width: 100%;
   height: 100vh;
   gap: 10px;
@@ -9,7 +9,7 @@ body{
   width: 390px;
   height: auto;
   padding: 20px;
-  border-radius: $normal-radius;
+  border-radius: $base-radius;
   box-shadow: $deafult-box-shadow;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@ span{
 //   align-items: center;
 //   justify-content: center;
 //   flex-direction: column;
-//   border-radius: $normal-radius;
+//   border-radius: $base-radius;
 //   h1{
 //     color: $white;
 //   }
@@ -46,7 +46,7 @@ span{
 //   align-items: center;
 //   justify-content: center;
 //   flex-direction: column;
-//   border-radius: $normal-radius;
+//   border-radius: $base-radius;
 //   gap: 15px;
 //   p{
 //     font-size: 2rem;
@@ -58,7 +58,7 @@ span{
 //     color: $white;
 //     border: none;
 //     background: $secondary;
-//     border-radius: $normal-radius;
+//     border-radius: $base-radius;
 //     padding: 15px;
 //   }
 // }

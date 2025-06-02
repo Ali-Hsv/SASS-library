@@ -3,8 +3,8 @@
     border: $border-prorerty;
     background-color: $bg-col;
     color: $txt-col;
-    padding: $paddin-size $paddin-size * 2;
-    border-radius: $normal-radius;
+    padding: $base-padding $base-padding * 2;
+    border-radius: $base-radius;
     box-shadow: $deafult-box-shadow;
     cursor: pointer;
     transition: 0.2s;
