@@ -2,8 +2,27 @@
     .text-#{$key}{
         color: $val;
     }
+    .text-#{$key}-hover{
+        &:hover{
+            color: $val;
+        }
+        // &:last-child{
+
+        // }
+        // &:first-child{
+
+        // }
+        // &:nth-child(2){
+
+        // }
+    }
     .bg-#{$key}{
         background-color: $val;
+    }
+    .bg-#{$key}-hover{
+        &:hover{
+            background-color: $val;
+        }
     }
 
     @if($val != black and $val != white){
@@ -12,8 +31,20 @@
             .text-#{$key}-light-#{$i}{
                 color: mix(white, $val, $i * 10);
             }
+            .text-#{$key}-light-#{$i}-hover{
+                &:hover{
+                    color: mix(white, $val, $i * 10);
+                }
+            }
+
+
             .bg-#{$key}-light-#{$i}{
                 background-color: mix(white, $val, $i * 10);
+            }
+            .bg-#{$key}-light-#{$i}-hover{
+                &:hover{
+                    background-color: mix(white, $val, $i * 10);
+                }
             }
         }
         //dark variation
@@ -21,10 +52,22 @@
             .text-#{$key}-dark-#{$i}{
                 color: mix(black, $val, $i * 10);
             }
+            .text-#{$key}-dark-#{$i}-hover{
+                &:hover{
+                    color: mix(black, $val, $i * 10);
+                }
+            }
+
+
             .bg-#{$key}-dark-#{$i}{
                 background-color: mix(black, $val, $i * 10);
             }
-    }
+            .bg-#{$key}-dark-#{$i}-hover{
+                &:hover{
+                    background-color: mix(black, $val, $i * 10);
+                }
+            }
+        }
     }
 }
 
