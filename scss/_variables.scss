@@ -3,22 +3,22 @@
 
 $error: #b03a3a;
 $info: #b09a3a;
-$dark-blue: #03045e;
-$blue: #0077b6;
-$aqua: #00b4d8;
-$light-aqua: #90e0ef;
-$white: #caf0f8;
+$primary-drk: #03045e;
+$primary: #0077b6;
+$secondary: #00b4d8;
+$secondary-lgt: #90e0ef;
+$lgt: #caf0f8;
 
 //map
 
 $colors: (
   "error": $error,
   "info": $info,
-  "primary-drk": $dark-blue,
-  "primary": $blue,
-  "secondary": $aqua,
-  "secondary-lgt": $light-aqua,
-  "white": $white,
+  "primary-drk": $primary-drk,
+  "primary": $primary,
+  "secondary": $secondary,
+  "secondary-lgt": $secondary-lgt,
+  "lgt": $lgt,
   "red": red,
   "yellow": yellow,
   "orange": orange,
@@ -56,4 +56,5 @@ $font-size-xxl: $font-size  * 3;
   margin: 0px;
   padding: 0px;
   font-family: "Playwrite DE Grund", cursive;
+  color: white;
 }

@@ -12,7 +12,7 @@
     padding: 20px;
     h1{
         text-decoration: underline;
-        color: $light-aqua;
+        color: map-get($colors, "secondary-lgt");
     }
     .block{
         display: flex;
@@ -23,9 +23,9 @@
         .card-info{
             width: 200px;
             height: 200px;
-            border: 2px solid $aqua;
+            border: 2px solid map-get($colors, "secondary");
             border-radius: $normal-radius;
-            color: $white;
+            color: $lgt;
             font-size: $font-size-sm;
             padding: 20px;
         }
@@ -50,16 +50,16 @@
                 cursor: pointer;
                 border-radius: math.div($normal-radius , 2);
                 border: none;
-                background: $blue;
+                background: map-get($colors, "primary-drk");
                 box-shadow: $dark-box-shadow;
-                color: $light-aqua;
+                color: map-get($colors, "secondary-lgt");
                 transition: 0.2s;
                 transform: scale(1);
                 display: inline-block;
             }
             button:hover{
-                background: $aqua;
-                color: $white;
+                background: map-get($colors, "secondary");
+                color: $lgt;
                 transform: scale(1.15);
             }
         }
