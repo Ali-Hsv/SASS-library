@@ -1,37 +1,29 @@
 @use 'sass:math'; 
 
 .card{
-    width: 350px;
+    width: auto;
     border-radius: $base-radius;
-    border: 2px solid map-get($colors, "primary");
+    box-shadow: $base-box-shadow;
     font-size: $font-size;
     display: flex;
-    align-items: center;
-    justify-content: start;
     flex-direction: column;
     padding: 20px;
     h1{
-        text-decoration: underline;
-        color: map-get($colors, "secondary-lgt");
+        color: map-get($colors, "primary");
     }
     .block{
         display: flex;
-        align-items: center;
-        justify-content: center;
         width: 100%;
         height: auto;
         .card-info{
-            width: 200px;
-            height: 200px;
+            width: auto;
             border: 2px solid map-get($colors, "secondary");
             border-radius: $base-radius;
-            color: $lgt;
+            color: $primary;
             font-size: $font-size-sm;
             padding: 20px;
         }
         .block-2{
-            width: 140px;
-            height: 220px;
             padding: 10px;
             display: flex;
             align-items: center;
@@ -46,6 +38,7 @@
                 color: $error;
             }
             button{
+                width: 110px;
                 padding: 9px;
                 cursor: pointer;
                 border-radius: math.div($base-radius , 2);

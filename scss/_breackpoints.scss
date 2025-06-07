@@ -1,0 +1,60 @@
+$breackpoints: (
+    "xs": 0,
+    "sm": 480px,
+    "md": 720px,
+    "lg": 960px,
+    "xl": 1200px,
+    "xxl": 1440px,
+);
+
+@mixin xs{
+    @media (min-width: map-get($breackpoints, "xs")){
+        @content;
+    }
+}
+@mixin sm{
+    @media (min-width: map-get($breackpoints, "sm")){
+        @content;
+    }
+}
+@mixin md{
+    @media (min-width: map-get($breackpoints, "md")){
+        @content; 
+    }
+}
+@mixin lg{
+    @media (min-width: map-get($breackpoints, "lg")){
+        @content;
+    }
+}
+@mixin xl{
+    @media (min-width: map-get($breackpoints, "xl")){
+        @content;
+    }
+}
+@mixin breackpoint($bp: 0){
+    @media(min-width: $bp){
+        @content
+    }
+}
+
+.responsive-text-test{
+    @include xs {
+        color: red;
+    }
+    @include sm {
+        color: orange;
+    }
+    @include md {
+        color: green;
+    }
+    @include lg {
+        color: aqua;
+    }
+    @include xl { 
+        color: blue;
+    }
+    @include breackpoint(1400px) {
+        color: brown;
+    }
+}

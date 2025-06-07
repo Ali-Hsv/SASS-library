@@ -1,11 +1,10 @@
-@mixin btn($border-prorerty: none, $bg-col: #2a6185, $txt-col: #c1dcdc){
+@mixin btn($border-prorerty: none, $bg-col: #2a6185){
     text-align: center;
     border: $border-prorerty;
     background-color: $bg-col;
-    color: $txt-col;
     padding: $base-padding $base-padding * 2;
     border-radius: $base-radius;
-    box-shadow: $deafult-box-shadow;
+    box-shadow: $base-box-shadow;
     cursor: pointer;
     transition: 0.2s;
     transform: scale(1);
