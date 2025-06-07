@@ -1,8 +1,18 @@
 @use "sass:math";
 
 $grid-colums: 12;
-$grid-gap: 20px;
 
+$grid-gap: (
+    "0": 0px,
+    "5": 5px,
+    "10": 10px,    
+    "15": 15px,    
+    "20": 20px,    
+    "25": 25px,    
+    "30": 30px,    
+);
+
+$layout-values: flex-start, flex-end, center, space-between, space-around;
 
 //base layout classes
 .container{
@@ -18,11 +28,27 @@ $grid-gap: 20px;
     // flex-direction: row;
     // flex-wrap: wrap;
     flex-flow: row wrap;
-    gap: $grid-gap;
+}
+
+//gap classes
+@each $key, $val in $grid-gap{
+    .gap-#{$key} > *{
+        padding: $val;
+    }
+    .gap-#{$key}{
+        margin-left: -$val;
+        margin-right: -$val;
+    }
+}
+
+//gap classes
+@each $val in $layout-values{
+    .justify-#{$val}{
+        justify-content: $val;
+    }
 }
 
 //col classes
-
 @include xs{
     @for $i from 1 through $grid-colums{
         .col-#{$i}-xs{
