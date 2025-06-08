@@ -195,7 +195,7 @@ $utilities: (
             "i-b": inline-block,
         ),
     ),
-    //! Display ==================== //
+    //! Font Size ==================== //
     "font-size": (
         "prefix": "font",
         "values": (
@@ -204,6 +204,16 @@ $utilities: (
             "lg": $font-size-lg,
             "xl": $font-size-xl,
             "xxl": $font-size-xxl,
+        ),
+    ),
+    //! Font Family ==================== //
+    "font-family": (
+        "prefix": "font-s",
+        "values": (
+            "1": $font-roboto,
+            "2": $font-edu-hand,
+            "3": $font-edu-hand-pre,
+            "4": $font-oswald,
         ),
     ),
 );

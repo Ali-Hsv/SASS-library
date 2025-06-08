@@ -1,5 +1,5 @@
 //*variables
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 $error: #b03a3a;
 $info: #b09a3a;
@@ -54,6 +54,11 @@ $font-size-lg: $font-size * 1.5;
 $font-size-xl: $font-size  * 2;
 $font-size-xxl: $font-size  * 3;
 
+$font-roboto: "Roboto", sans-serif;
+$font-edu-hand: "Edu SA Hand", cursive;
+$font-edu-hand-pre: "Edu VIC WA NT Hand Pre", cursive;
+$font-oswald: "Oswald", sans-serif;
+
 $base-padding: 10px;
 $base-margin: 10px;
 $base-radius: 20px;
@@ -61,5 +66,4 @@ $base-radius: 20px;
 *{
   margin: 0px;
   padding: 0px;
-  font-family: "Roboto", sans-serif;
 }
