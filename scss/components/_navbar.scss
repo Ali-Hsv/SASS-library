@@ -9,7 +9,7 @@
 .navbar {
     @extend %flex-layout; 
     padding: $base-padding $base-padding * 2;
-    box-shadow: $dark-box-shadow;
+    box-shadow: $base-box-shadow;
 
     .navbar-text{
         font-size: $font-size-lg;

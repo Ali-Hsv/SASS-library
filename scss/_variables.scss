@@ -1,13 +1,13 @@
 //*variables
-@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-$error: #b03a3a;
-$info: #b09a3a;
-$primary-drk: #03045e;
-$primary: #0077b6;
-$secondary: #00b4d8;
-$secondary-lgt: #90e0ef;
-$lgt: #caf0f8;
+$error: #e53935;
+$info: #fdd835;
+$primary-drk: #184e77;
+$primary: #1e6091;
+$secondary: #1a759f;
+$secondary-lgt: #168aad;
+$lgt: #34a0a4;
 
 //map
 
@@ -19,17 +19,19 @@ $colors: (
   "secondary": $secondary,
   "secondary-lgt": $secondary-lgt,
   "lgt": $lgt,
-  "red": red,
-  "yellow": yellow,
-  "orange": orange,
-  "green": green,
-  "salat": #5dab09,
-  "purple": purple,
-  "pink": pink,
-  "gray": gray,
-  "brown": brown,
-  "black": black,
-  "white": white,
+  "red":    #e53935,
+  "yellow": #fdd835,
+  "orange": #fb8c00,
+  "green":  #43a047,
+  "salat":  #7cb342,
+  "aqua":   #00acc1,
+  "blue":   #1e88e5,
+  "purple": #8e24aa,
+  "pink":   #ec407a,
+  "gray":   #546e7a,
+  "brown":  #8d6e63,
+  "black":  #000000,
+  "white":  #ffffff
 );
 
 //todo: Map
@@ -58,10 +60,13 @@ $font-roboto: "Roboto", sans-serif;
 $font-edu-hand: "Edu SA Hand", cursive;
 $font-edu-hand-pre: "Edu VIC WA NT Hand Pre", cursive;
 $font-oswald: "Oswald", sans-serif;
+$font-nunito: "Nunito", sans-serif;
 
 $base-padding: 10px;
 $base-margin: 10px;
 $base-radius: 20px;
+
+$cursor: pointer;
 
 *{
   margin: 0px;

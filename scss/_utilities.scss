@@ -22,6 +22,8 @@ $utilities: (
             "3": 300px,
             "4": 400px,
             "5": 500px,
+            "full": 100%,
+            "vw": 100vw,
         ),
     ),
     //! Height ==================== //
@@ -33,6 +35,7 @@ $utilities: (
             "3": 300px,
             "4": 400px,
             "5": 500px,
+            "vh": 100vh,
         ),
     ),
     //! Padding ==================== //
@@ -180,7 +183,8 @@ $utilities: (
             "xs": math.div($base-radius, 4),
             "sm": math.div($base-radius, 2),
             "lg": $base-radius * 2,
-            "xl": $base-radius * 4,
+            "xl": $base-radius * 3,
+            "xxl": $base-radius * 4,
             "full": 100%,
         ),
     ),
@@ -214,6 +218,7 @@ $utilities: (
             "2": $font-edu-hand,
             "3": $font-edu-hand-pre,
             "4": $font-oswald,
+            "5": $font-nunito,
         ),
     ),
 );

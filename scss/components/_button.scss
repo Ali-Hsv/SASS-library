@@ -1,4 +1,4 @@
-@mixin btn($border-prorerty: none, $bg-col: #2a6185){
+@mixin btn($border-prorerty: none, $bg-col: white){
     text-align: center;
     border: $border-prorerty;
     background-color: $bg-col;
@@ -10,7 +10,6 @@
     transform: scale(1);
     margin: 5px;
     &:hover{
-        background-color: lighten($bg-col, 15);
         transform: scale(1.1);
     }
 }
@@ -22,8 +21,16 @@
 @each $key, $val in $colors{
     .btn-#{$key}{
         @include btn($bg-col: $val);
+        &:hover{
+            background-color: lighten($val, 10);
+        }
     }
     .btn-#{$key}-border{
-        @include btn($border-prorerty: solid 3px $val);
+        @include btn($border-prorerty: solid 2px $val);
+        color: $val;
+        &:hover{
+            background-color: lighten($val, 15);
+            color: white;
+        }
     }
 }
