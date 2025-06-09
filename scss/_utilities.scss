@@ -13,10 +13,14 @@
 // "opasity": (),
 
 $utilities: (
+    //TODO: ============================== SIZE =============================//
+
     //! Witdh ==================== //
     "width": (
         "prefix": "w",
         "values": (
+            "0": 0,
+            "deafult": 100px,
             "1": 100px,
             "2": 200px,
             "3": 300px,
@@ -30,6 +34,8 @@ $utilities: (
     "height": (
         "prefix": "h",
         "values": (
+            "0": 0,
+            "deafult": 100px,
             "1": 100px,
             "2": 200px,
             "3": 300px,
@@ -38,6 +44,9 @@ $utilities: (
             "vh": 100vh,
         ),
     ),
+
+    //TODO: ============================= PADDING ===========================//
+
     //! Padding ==================== //
     "padding": (
         "prefix": "p",
@@ -50,7 +59,7 @@ $utilities: (
             "5": $base-padding * 8,
         ),
     ),
-    //! Top
+    //* Top ==================== //
     "padding-top": (
         "prefix": "pt",
         "values": (
@@ -62,7 +71,7 @@ $utilities: (
             "5": $base-padding * 8,
         ),
     ),
-    //! Bottom
+    //* Bottom ==================== //
     "padding-bottom": (
         "prefix": "pb",
         "values": (
@@ -74,7 +83,7 @@ $utilities: (
             "5": $base-padding * 8,
         ),
     ),
-    //! Left
+    //* Left ==================== //
     "padding-left": (
         "prefix": "pl",
         "values": (
@@ -86,7 +95,7 @@ $utilities: (
             "5": $base-padding * 8,
         ),
     ),
-    //! Right
+    //* Right ==================== //
     "padding-right": (
         "prefix": "pr",
         "values": (
@@ -98,6 +107,9 @@ $utilities: (
             "5": $base-padding * 8,
         ),
     ),
+
+    //TODO: ============================= MARGIN ============================//
+
     //! Margin ==================== //
     "margin": (
         "prefix": "m",
@@ -110,7 +122,7 @@ $utilities: (
             "5": $base-margin * 8,
         ),
     ),
-    //! Top
+    //* Top ==================== //
     "margin-top": (
         "prefix": "mt",
         "values": (
@@ -122,7 +134,7 @@ $utilities: (
             "5": $base-margin * 8,
         ),
     ),
-    //! Bottom
+    //* Bottom ==================== //
     "margin-bottom": (
         "prefix": "mb",
         "values": (
@@ -134,6 +146,7 @@ $utilities: (
             "5": $base-margin * 8,
         ),
     ),
+    //* Left ==================== //
     //! Left
     "margin-left": (
         "prefix": "ml",
@@ -146,7 +159,7 @@ $utilities: (
             "5": $base-margin * 8,
         ),
     ),
-    //! Right
+    //* Right ==================== //
     "margin-right": (
         "prefix": "mr",
         "values": (
@@ -158,6 +171,206 @@ $utilities: (
             "5": $base-margin * 8,
         ),
     ),
+    //TODO: ============================= BORDER ============================//
+
+    //! Border Width ==================== //
+    "border-width": (
+        "prefix": "border-w",
+        "values": (
+            "sm": math.div($base-border-width, 2),
+            "md": $base-border-width,
+            "lg": $base-border-width * 1.5,
+            "xl": $base-border-width * 2,
+            "xxl": $base-border-width * 2.5,
+        ),
+    ),
+    //* Top ==================== //
+    "border-top-width": (
+        "prefix": "border-wt",
+        "values": (
+            "sm": math.div($base-border-width, 2),
+            "md": $base-border-width,
+            "lg": $base-border-width * 1.5,
+            "xl": $base-border-width * 2,
+            "xxl": $base-border-width * 2.5,
+        ),
+    ),
+    //* Bottom ==================== //
+    "border-bottom-width": (
+        "prefix": "border-wb",
+        "values": (
+            "sm": math.div($base-border-width, 2),
+            "md": $base-border-width,
+            "lg": $base-border-width * 1.5,
+            "xl": $base-border-width * 2,
+            "xxl": $base-border-width * 2.5,
+        ),
+    ),
+    //* Left ==================== //
+    "border-left-width": (
+        "prefix": "border-wl",
+        "values": (
+            "sm": math.div($base-border-width, 2),
+            "md": $base-border-width,
+            "lg": $base-border-width * 1.5,
+            "xl": $base-border-width * 2,
+            "xxl": $base-border-width * 2.5,
+        ),
+    ),
+    //* Right ==================== //
+    "border-right-width": (
+        "prefix": "border-wr",
+        "values": (
+            "sm": math.div($base-border-width, 2),
+            "md": $base-border-width,
+            "lg": $base-border-width * 1.5,
+            "xl": $base-border-width * 2,
+            "xxl": $base-border-width * 2.5,
+        ),
+    ),
+    //! Border Style ==================== //
+    "border-style": (
+        "prefix": "border-s",
+        "values": (
+            "deafult": solid,
+            "n": none,
+            "s": solid,
+            "das": dashed,
+            "dot": dotted,
+            "dou": double,
+            "g": groove,
+            "r": ridge,
+            "in": inset,
+            "out": outset,
+        ),
+    ),
+    //* Top ==================== //
+    "border-top-style": (
+        "prefix": "border-st",
+        "values": (
+            "deafult": solid,
+            "n": none,
+            "s": solid,
+            "das": dashed,
+            "dot": dotted,
+            "dou": double,
+            "g": groove,
+            "r": ridge,
+            "in": inset,
+            "out": outset,
+        ),
+    ),
+    //* Bottom ==================== //
+    "border-bottom-style": (
+        "prefix": "border-sb",
+        "values": (
+            "deafult": solid,
+            "n": none,
+            "s": solid,
+            "das": dashed,
+            "dot": dotted,
+            "dou": double,
+            "g": groove,
+            "r": ridge,
+            "in": inset,
+            "out": outset,
+        ),
+    ),
+    //* Left ==================== //
+    "border-left-style": (
+        "prefix": "border-sl",
+        "values": (
+            "deafult": solid,
+            "n": none,
+            "s": solid,
+            "das": dashed,
+            "dot": dotted,
+            "dou": double,
+            "g": groove,
+            "r": ridge,
+            "in": inset,
+            "out": outset,
+        ),
+    ),
+    //* Right ==================== //
+    "border-right-style": (
+        "prefix": "border-sr",
+        "values": (
+            "deafult": solid,
+            "n": none,
+            "s": solid,
+            "das": dashed,
+            "dot": dotted,
+            "dou": double,
+            "g": groove,
+            "r": ridge,
+            "in": inset,
+            "out": outset,
+        ),
+    ),
+
+    //TODO: ========================== FONT (TEXT) ==========================//
+
+    //* Font Size ==================== //
+    "font-size": (
+        "prefix": "font",
+        "values": (
+            "sm": $font-size-sm,
+            "md": $font-size,
+            "lg": $font-size-lg,
+            "xl": $font-size-xl,
+            "xxl": $font-size-xxl,
+        ),
+    ),
+    //* Font Family ==================== //
+    "font-family": (
+        "prefix": "font-styl",
+        "values": (
+            "1": $font-roboto,
+            "2": $font-edu-hand,
+            "3": $font-edu-hand-pre,
+            "4": $font-oswald,
+            "5": $font-nunito,
+        ),
+    ),
+    //* Font Weight ==================== //
+    "font-weight": (
+        "prefix": "font-w",
+        "values": (
+            "n": normal,
+            "b": bold,
+            "l": lighter,
+            "br": bolder,
+        ),
+    ),
+    //* Text Decoration ==================== //
+    "text-decoration": (
+        "prefix": "txt-dec",
+        "values": (
+            "n": none,
+            "u": underline,
+            "o": overline,
+            "l": line-through,
+        ),
+    ),
+    //* Text Align ==================== //
+    "text-align": (
+        "prefix": "txt-dec",
+        "values": (
+            "l": left,
+            "r": right,
+            "c": center,
+            "j": justify,
+            "s": start,
+            "e": end,
+            "init": inherit,
+            "inal": initial,
+            "u": unset,
+        ),
+    ),
+
+    //TODO: ============================= OTHERS ============================//
+
     //! Opasity ==================== //
     "opacity": (
         "prefix": "op",
@@ -199,26 +412,76 @@ $utilities: (
             "i-b": inline-block,
         ),
     ),
-    //! Font Size ==================== //
-    "font-size": (
-        "prefix": "font",
+    //! Flex Direction ==================== //
+    "flex-direction": (
+        "prefix": "f-direc",
         "values": (
-            "sm": $font-size-sm,
-            "md": $font-size,
-            "lg": $font-size-lg,
-            "xl": $font-size-xl,
-            "xxl": $font-size-xxl,
+            "r": row,
+            "r-rev": row-reverse,
+            "c": column,
+            "c-rev": column-reverse,
         ),
     ),
-    //! Font Family ==================== //
-    "font-family": (
-        "prefix": "font-s",
+    //! Justify Content ==================== //
+    "justify-content": (
+        "prefix": "justify",
         "values": (
-            "1": $font-roboto,
-            "2": $font-edu-hand,
-            "3": $font-edu-hand-pre,
-            "4": $font-oswald,
-            "5": $font-nunito,
+            "deafult": center,
+            "str": flex-start,
+            "end": flex-end,
+            "c": center,
+            "s-bet": space-between,
+            "s-ard": space-around,
+            "s-evl": space-evenly,
+        ),
+    ),
+    //! Align Items ==================== //
+    "align-items": (
+        "prefix": "align",
+        "values": (
+            "deafult": center,
+            "str": flex-start,
+            "end": flex-end,
+            "s": stretch,
+            "c": center,
+            "b": baseline,
+        ),
+    ),
+    //! Gap ==================== //
+    "gap": (
+        "prefix": "gap",
+        "values": (
+            "deafult": $base-gap,
+            "0": 0px,
+            "1": $base-gap * 1,
+            "2": $base-gap * 2,
+            "3": $base-gap * 3,
+            "4": $base-gap * 4,
+            "5": $base-gap * 5,
+            "6": $base-gap * 6,
+            "7": $base-gap * 7,
+        ),
+    ),
+    //! Cursore ==================== //
+    "cursor": (
+        "prefix": "cursor",
+        "values": (
+            //*Basic cursors
+            "d": default,
+            "p": pointer,
+            "text": text,
+            "nt-a": not-allowed,
+            "m": move,
+            //*Interactive/drag and drop
+            "g": grab,
+            "ging": grabbing,
+            //*Standby state
+            "w": wait,
+            "prg": progress,
+            //*Additionally
+            "n": none,
+            "h": help,
+            "c": crosshair,
         ),
     ),
 );
@@ -228,14 +491,23 @@ $utilities: (
     $values: map-get($map, "values");
 
     @each $k, $v in $values{
-        @if($k == "deafult"){
-            .#{$prefix}{
-                #{$property}: $v;
+        @if($property != "cursor"){
+            @if($k == "deafult"){
+                .#{$prefix}{
+                    #{$property}: $v;
+                }
+            } 
+            @else{
+                .#{$prefix}-#{$k}{
+                    #{$property}: $v;
+                }
             }
-        } 
+        }
         @else{
             .#{$prefix}-#{$k}{
-                #{$property}: $v;
+                &:hover{
+                    #{$property}: $v;
+                }
             }
         }
     }

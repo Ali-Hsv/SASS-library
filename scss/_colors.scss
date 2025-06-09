@@ -1,4 +1,5 @@
 @each $key, $val in $colors{
+    //Text color
     .text-#{$key}{
         color: $val;
     }
@@ -7,12 +8,24 @@
             color: $val;
         }
     }
+
+    //Background color
     .bg-#{$key}{
         background-color: $val;
     }
     .bg-#{$key}-hover{
         &:hover{
             background-color: $val;
+        }
+    }
+
+    //Border color
+    .border-#{$key}{
+        border-color: $val;
+    }
+    .border-#{$key}-hover{
+        &:hover{
+            border-color: $val;
         }
     }
 
@@ -37,13 +50,22 @@
                 }
             }
 
+            .border-#{$key}-light-#{$i}{
+                border-color: mix(white, $val, $i * 10);
+            }
+            .border-#{$key}-light-#{$i}-hover{
+                &:hover{
+                    border-color: mix(white, $val, $i * 10);
+                }
+            }
+
             //dark variation
             .text-#{$key}-dark-#{$i}{
-                color: mix(black, $val, $i * 10);
+                color: mix(black, $val, $i * 10)
             }
             .text-#{$key}-dark-#{$i}-hover{
                 &:hover{
-                    color: mix(black, $val, $i * 10);
+                    color: mix(black, $val, $i * 10)
                 }
             }
 
@@ -53,6 +75,15 @@
             .bg-#{$key}-dark-#{$i}-hover{
                 &:hover{
                     background-color: mix(black, $val, $i * 10);
+                }
+            }
+
+            .border-#{$key}-dark-#{$i}{
+                border-color: mix(black, $val, $i * 10);
+            }
+            .border-#{$key}-dark-#{$i}-hover{
+                &:hover{
+                    border-color: mix(black, $val, $i * 10);
                 }
             }
         }

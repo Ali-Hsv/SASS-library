@@ -1,8 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 body{
   background-color: #ffffff;
   width: 100%;
   height: 100vh;
   gap: 10px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-shadow{
+  box-shadow: $base-box-shadow;
 }
 
 span{
@@ -12,35 +27,6 @@ span{
   display: inline-block;
   box-sizing: border-box;
 }
-
-.curs-point{
-  cursor: $cursor;
-}
-
-a{
-  color: inherit;
-  text-decoration: none;
-}
-
-ul{
-  list-style: none;
-  li{
-  list-style: none;
-}
-}
-
-.box-shadow{
-  box-shadow: $base-box-shadow;
-}
-
-.f-col{
-  flex-direction: column;
-}
-
-.al-cen{
-  align-items: center;
-}
-
 // hr{
 //   text-decoration: none;
 // }

@@ -46,10 +46,6 @@ $colors: (
 //   background-color: map-get($colors, "brown");
 // }
 
-
-$base-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-$dark-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 $font-size: 1rem;
 $font-size-sm: $font-size  * 0.75;
 $font-size-lg: $font-size * 1.5;
@@ -62,13 +58,13 @@ $font-edu-hand-pre: "Edu VIC WA NT Hand Pre", cursive;
 $font-oswald: "Oswald", sans-serif;
 $font-nunito: "Nunito", sans-serif;
 
+$base-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$dark-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 $base-padding: 10px;
 $base-margin: 10px;
 $base-radius: 20px;
+$base-border-width: 2px;
+$base-gap: 5px;
 
-$cursor: pointer;
-
-*{
-  margin: 0px;
-  padding: 0px;
-}
+$grid-colums: 12;
