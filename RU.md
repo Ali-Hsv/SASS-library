@@ -1,11 +1,11 @@
-# Моя SASS библиотека 🎨✨
-
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Gulp](https://img.shields.io/badge/Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+# RU
+## Моя SASS библиотека 🎨✨
 
-## 🌟 О библиотеке
+### 🌟 О библиотеке
 
 Это класс-ориентированная SASS-библиотека, созданная для изучения и демонстрации всех возможностей препроцессора SASS. С ней вы сможете:
 
@@ -20,9 +20,9 @@
 
 [🚀 Полная документация](#) | [📦 Скачать последнюю версию](#)
 
-## ⚡ Быстрый старт
+### ⚡ Быстрый старт
 
-### Установка
+#### Установка
 
 1. Клонируйте репозиторий:
 ```bash
@@ -45,7 +45,7 @@ npm install gulp gulp-sass gulp-purgecss gulp-plumber sass --save-dev
 npm run gulp
 ```
 
-### Варианты использования
+#### Варианты использования
 
 1. Базовое использование
    - Просто подключите готовый CSS-файл и если нужны изменения то изменяйте через сам sass - файл
@@ -59,11 +59,12 @@ $secondary: #2196f3;
 // Подключаем библиотеку
 @import "scss/main";
 ```
-## 📜 Лицензия
+### 📜 Лицензия
 Этот проект распространяется под лицензией MIT
 
-## 📬 Контакты
+### 📬 Контакты
 <div align="center"> <a href="https://github.com/Ali-Hsv"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"> </a> <a href="mailto:ваш@email.com"> <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"> </a> </div>
 
 <div align="center"> <p>⭐ Если вам нравится этот проект, не забудьте поставить звезду!</p> </div> ```
+
 
