@@ -14,6 +14,6 @@
   </p>
 
    <div align="center">
-     <img src="[https://media.giphy.com/media/Ln2dAW9oycjgmTpjX9/giphy.gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjFzeXRydjA3cDBsZjgwcWs0N3podXdya2FyZHczcmk4cDd5NHVuMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/epayH7qYkRy9BsXxFH/giphy.gif)" width="200" alt="SASS animation">
+     <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWt5bGFlczUwcDB4N25qaW5kbXg3MWU1cHh3ZmRhZ2V3dmJndTZiaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PQHZH0iHMCmrNhRcE9/giphy.gif" width="200" alt="SASS animation">
    </div>
 </div>
