@@ -18,7 +18,7 @@ This is a class-oriented SASS library designed for learning and demonstrating al
 - ⚡ **Quick setup**  
   Easy customization via variables
 
-[🚀 Full documentation](#) | [📦 Download the latest version](https://github.com/Ali-Hsv/SASS-library/archive/refs/heads/main.zip)
+[📝 Full documentation](#) | [📦 Download the latest version](https://github.com/Ali-Hsv/SASS-library/archive/refs/heads/main.zip)
 
 ### ⚡ Quick start
 
