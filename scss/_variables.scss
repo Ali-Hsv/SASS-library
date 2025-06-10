@@ -1,13 +1,13 @@
 //*variables
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-$error: #e53935;
-$info: #fdd835;
-$primary-drk: #184e77;
-$primary: #1e6091;
-$secondary: #1a759f;
-$secondary-lgt: #168aad;
-$lgt: #34a0a4;
+$error: #e53935 !default;
+$info: #fdd835 !default;
+$primary-drk: #184e77 !default;
+$primary: #1e6091 !default;
+$secondary: #1a759f !default;
+$secondary-lgt: #168aad !default;
+$lgt: #34a0a4 !default;
 
 //map
 
@@ -46,25 +46,25 @@ $colors: (
 //   background-color: map-get($colors, "brown");
 // }
 
-$font-size: 1rem;
-$font-size-sm: $font-size  * 0.75;
-$font-size-lg: $font-size * 1.5;
-$font-size-xl: $font-size  * 2;
-$font-size-xxl: $font-size  * 3;
+$font-size: 1rem !default;
+$font-size-sm: $font-size  * 0.75 !default;
+$font-size-lg: $font-size * 1.5 !default;
+$font-size-xl: $font-size  * 2 !default;
+$font-size-xxl: $font-size  * 3 !default;
 
-$font-roboto: "Roboto", sans-serif;
+$font-roboto: "Roboto", sans-serif !default;
 $font-edu-hand: "Edu SA Hand", cursive;
-$font-edu-hand-pre: "Edu VIC WA NT Hand Pre", cursive;
-$font-oswald: "Oswald", sans-serif;
-$font-nunito: "Nunito", sans-serif;
+$font-edu-hand-pre: "Edu VIC WA NT Hand Pre", cursive !default;
+$font-oswald: "Oswald", sans-serif !default;
+$font-nunito: "Nunito", sans-serif !default;
 
-$base-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-$dark-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+$base-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !default;
+$dark-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !default;
 
-$base-padding: 10px;
-$base-margin: 10px;
-$base-radius: 20px;
-$base-border-width: 2px;
-$base-gap: 5px;
+$base-padding: 10px !default;
+$base-margin: 10px !default;
+$base-radius: 20px !default;
+$base-border-width: 2px !default;
+$base-gap: 5px !default;
 
-$grid-colums: 12;
+$grid-colums: 12 !default;
