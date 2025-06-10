@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 
 <div align="center">
-  <img src="https://media.giphy.com/media/Ln2dAW9oycjgmTpjX9/giphy.gif" width="200" alt="SASS animation">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTNyemZ4Zmp3M210ajRldDhpYmlnNmVydnl0ZjhuZWNvZW5xZ2pldiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k9nostndMP8nwTxK5U/giphy.gif" width="200" alt="SASS animation">
 </div>
 
 ## 🌟 О библиотеке
