@@ -18,7 +18,7 @@ Bu klass arientasiyalı kitapxana, SASS dilinin öyrənilməsi üçün yaradıl�
 - ⚡ **Sürətli konfiqurasiya**  
   Dəyişənlər vasitəsilə asan fərdiləşdirmə
 
-[📝 Tam Dokumentasia](#) | [📦 Son Versiyanı Yüklə](#)
+[📝 Tam Dokumentasia](#) | [📦 Son Versiyanı Yüklə](https://github.com/Ali-Hsv/SASS-library/archive/refs/heads/main.zip)
 
 ### ⚡ Tez Başlanğıc
 
