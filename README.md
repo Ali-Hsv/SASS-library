@@ -39,8 +39,10 @@ node -v
 # или
 npm -v
 ```
+
 > Если команды не работают, установите [Node.js](https://nodejs.org/en).
-3.Установите зависимости:
+
+3. Установите зависимости:
 ```bash
 npm init -y
 npm install gulp gulp-sass gulp-purgecss gulp-plumber sass --save-dev
@@ -53,7 +55,7 @@ npm run gulp
    - Просто подключите готовый CSS-файл и если нужны изменения то изменяйте через сам sass - файл
 2. Кастомизация
    - Создайте файл custom.scss
-```bash
+```scss
 // Переопределяем переменные
 $primary: #ff5722;
 $secondary: #2196f3;
