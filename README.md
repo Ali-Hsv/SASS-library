@@ -5,10 +5,6 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 
-<div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTNyemZ4Zmp3M210ajRldDhpYmlnNmVydnl0ZjhuZWNvZW5xZ2pldiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k9nostndMP8nwTxK5U/giphy.gif" width="200" alt="SASS animation">
-</div>
-
 ## 🌟 О библиотеке
 
 Это класс-ориентированная SASS-библиотека, созданная для изучения и демонстрации всех возможностей препроцессора SASS. С ней вы сможете:
