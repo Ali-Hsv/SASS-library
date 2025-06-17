@@ -52,6 +52,7 @@ $utilities: (
         "prefix": "p",
         "values": (
             "0": 0,
+            "0-5": math.div($base-padding, 2),
             "1": $base-padding,
             "2": $base-padding * 2,
             "3": $base-padding * 4,
@@ -345,7 +346,7 @@ $utilities: (
     ),
     //* Text Decoration ==================== //
     "text-decoration": (
-        "prefix": "txt-dec",
+        "prefix": "text-dec",
         "values": (
             "n": none,
             "u": underline,
@@ -355,7 +356,7 @@ $utilities: (
     ),
     //* Text Align ==================== //
     "text-align": (
-        "prefix": "txt-dec",
+        "prefix": "text-align",
         "values": (
             "l": left,
             "r": right,
@@ -464,7 +465,7 @@ $utilities: (
     ),
     //! Cursore ==================== //
     "cursor": (
-        "prefix": "cursor",
+        "prefix": "cur",
         "values": (
             //*Basic cursors
             "d": default,

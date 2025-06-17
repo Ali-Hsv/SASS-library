@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0px;
@@ -5,10 +6,43 @@
 }
 
 body {
-  background-color: #ffffff;
   width: 100%;
   height: 100vh;
   gap: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+span {
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 13px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+pre, code {
+  font-family: "Courier New", monospace; /* моноширинный шрифт */
+  background-color: #292929;
+  color: #3ce7f7;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  overflow-x: auto;
+  display: block;
+  cursor: text;
+}
+
+pre {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .container {
@@ -19,23 +53,157 @@ body {
   box-sizing: border-box;
 }
 
-.border-primary {
-  border-color: #1e6091;
+.row {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-.border-secondary {
-  border-color: #1a759f;
+@media (min-width: 0) {
+  .col-12-xs {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  .col-3-sm {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 25%;
+  }
+}
+@media (min-width: 960px) {
+  .col-7-lg {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 58.3333333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-3-xl {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 25%;
+  }
 }
 
-.text-secondary-light-7-hover:hover {
-  color: rgb(186.3, 213.6, 226.2);
+.text-lgt-light-8 {
+  color: rgb(214.4, 236, 236.8);
+}
+
+.text-red {
+  color: #e53935;
+}
+
+.text-red-dark-1 {
+  color: rgb(206.1, 51.3, 47.7);
+}
+
+.text-red-dark-2-hover:hover {
+  color: rgb(183.2, 45.6, 42.4);
+}
+
+.text-red-light-3 {
+  color: rgb(236.8, 116.4, 113.6);
+}
+
+.text-yellow {
+  color: #fdd835;
+}
+
+.text-yellow-light-3 {
+  color: rgb(253.6, 227.7, 113.6);
+}
+
+.text-yellow-light-4 {
+  color: rgb(253.8, 231.6, 133.8);
+}
+
+.text-yellow-light-7-hover:hover {
+  color: rgb(254.4, 243.3, 194.4);
+}
+
+.text-orange {
+  color: #fb8c00;
+}
+
+.text-orange-hover:hover {
+  color: #fb8c00;
+}
+
+.text-orange-dark-1 {
+  color: rgb(225.9, 126, 0);
+}
+
+.text-orange-dark-4 {
+  color: rgb(150.6, 84, 0);
+}
+
+.text-green {
+  color: #43a047;
+}
+
+.text-green-dark-7 {
+  color: rgb(20.1, 48, 21.3);
+}
+
+.text-green-dark-7-hover:hover {
+  color: rgb(20.1, 48, 21.3);
+}
+
+.bg-blue-light-2 {
+  background-color: rgb(75, 159.8, 234.2);
+}
+
+.bg-blue-dark-2 {
+  background-color: rgb(24, 108.8, 183.2);
+}
+
+.bg-blue-light-3 {
+  background-color: rgb(97.5, 171.7, 236.8);
+}
+
+.bg-blue-dark-4 {
+  background-color: rgb(18, 81.6, 137.4);
+}
+
+.bg-blue-light-5-hover:hover {
+  background-color: rgb(142.5, 195.5, 242);
+}
+
+.border-blue-dark-7 {
+  border-color: rgb(9, 40.8, 68.7);
+}
+
+.text-purple {
+  color: #8e24aa;
+}
+
+.text-purple-hover:hover {
+  color: #8e24aa;
+}
+
+.text-purple-light-4 {
+  color: rgb(187.2, 123.6, 204);
+}
+
+.text-purple-light-8 {
+  color: rgb(232.4, 211.2, 238);
+}
+
+.text-black {
+  color: #000000;
 }
 
 .text-white {
   color: #ffffff;
 }
 
- .navbar-blue .container, .navbar-blue, .card-1-primary-drk {
+.text-white-hover:hover {
+  color: #ffffff;
+}
+
+ .navbar-blue .container, .navbar-blue, .card-1 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -43,45 +211,17 @@ body {
   box-sizing: border-box;
 }
 
- .card-1-primary-drk {
+.card-1 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 20px;
   flex-direction: column;
   padding: 10px;
 }
- .card-1-primary-drk .card-title {
+.card-1 .card-title {
   font-size: 2rem;
 }
- .card-1-primary-drk .card-body {
-  border-radius: 20px;
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
 
-.card-1-primary-drk {
-  background-color: #184e77;
-}
-
-.btn-yellow {
-  text-align: center;
-  border: none;
-  background-color: #fdd835;
-  padding: 10px 20px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  cursor: pointer;
-  transition: 0.2s;
-  transform: scale(1);
-  margin: 5px;
-}
-.btn-yellow:hover {
-  transform: scale(1.1);
-}
-.btn-yellow:hover {
-  background-color: rgb(253.5, 225.75, 103.5);
-}
-
- .navbar-blue .container, .navbar-blue, .card-1-primary-drk {
+ .navbar-blue .container, .navbar-blue, .card-1 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -92,9 +232,6 @@ body {
  .navbar-blue {
   padding: 10px 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
- .navbar-blue .navbar-text {
-  font-size: 1.5rem;
 }
 ul {
   list-style: none;
@@ -107,24 +244,84 @@ ul li {
   background-color: #1e88e5;
 }
 
-.ml-1 {
-  margin-left: 10px;
+.w-2 {
+  width: 200px;
 }
 
-.border-w-lg {
-  border-width: 3px;
+.p-1 {
+  padding: 10px;
 }
 
-.border-s-s {
-  border-style: solid;
+.p-2 {
+  padding: 20px;
+}
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.pt-2 {
+  padding-top: 20px;
+}
+
+.pb-3 {
+  padding-bottom: 40px;
+}
+
+.pl-2 {
+  padding-left: 20px;
+}
+
+.pr-2 {
+  padding-right: 20px;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 40px;
+}
+
+.mt-4 {
+  margin-top: 60px;
+}
+
+.ml-3 {
+  margin-left: 40px;
+}
+
+.font-sm {
+  font-size: 0.75rem;
 }
 
 .font-md {
   font-size: 1rem;
 }
 
+.font-lg {
+  font-size: 1.5rem;
+}
+
+.font-xl {
+  font-size: 2rem;
+}
+
+.font-xxl {
+  font-size: 3rem;
+}
+
 .font-styl-1 {
   font-family: "Roboto", sans-serif;
+}
+
+.font-styl-2 {
+  font-family: "Edu SA Hand", cursive;
 }
 
 .font-styl-3 {
@@ -135,10 +332,110 @@ ul li {
   font-family: "Oswald", sans-serif;
 }
 
-.cursor-d:hover {
+.font-styl-5 {
+  font-family: "Nunito", sans-serif;
+}
+
+.font-w-n {
+  font-weight: normal;
+}
+
+.font-w-b {
+  font-weight: bold;
+}
+
+.font-w-l {
+  font-weight: lighter;
+}
+
+.font-w-br {
+  font-weight: bolder;
+}
+
+.text-dec-n {
+  text-decoration: none;
+}
+
+.text-dec-u {
+  text-decoration: underline;
+}
+
+.text-dec-o {
+  text-decoration: overline;
+}
+
+.text-dec-l {
+  text-decoration: line-through;
+}
+
+.text-align-l {
+  text-align: left;
+}
+
+.text-align-r {
+  text-align: right;
+}
+
+.text-align-c {
+  text-align: center;
+}
+
+.text-align-j {
+  text-align: justify;
+}
+
+.text-align-s {
+  text-align: start;
+}
+
+.text-align-e {
+  text-align: end;
+}
+
+.br {
+  border-radius: 20px;
+}
+
+.br-sm {
+  border-radius: 10px;
+}
+
+.dis-f {
+  display: flex;
+}
+
+.dis-b {
+  display: block;
+}
+
+.f-direc-c {
+  flex-direction: column;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.justify-c {
+  justify-content: center;
+}
+
+.align-c {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 10px;
+}
+
+.gap-5 {
+  gap: 25px;
+}
+
+.cur-d:hover {
   cursor: default;
 }
 
-.cursor-p:hover {
+.cur-p:hover {
   cursor: pointer;
 }
